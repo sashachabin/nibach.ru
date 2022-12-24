@@ -1,0 +1,22 @@
+{
+  "name": "nibach.ru",
+  "private": true,
+  "homepage": "https://ekaterinburg.dev",
+  "type": "module",
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "test": "size-limit",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@size-limit/file": "^8.1.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "postcss-nesting": "^10.2.0",
+    "size-limit": "^8.1.0",
+    "vite": "^4.0.3"
+  }
+}
