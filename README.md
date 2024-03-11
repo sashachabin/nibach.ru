@@ -1,8 +1,6 @@
 # nibach.ru
 
-Alexander Chabin personal website
-
-**[nibach.ru](https://nibach.ru)** 
+**@sashachabin** personal website **[nibach.ru](https://nibach.ru)** 
 
 ## Development
 
