@@ -5,6 +5,7 @@
   "type": "module",
   "license": "MIT",
   "version": "1.0.0",
+  "packageManager": "pnpm@8.15.4",
   "scripts": {
     "start": "vite",
     "build": "vite build",
