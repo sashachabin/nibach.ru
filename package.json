@@ -1,0 +1,16 @@
+{
+  "private": "true",
+  "homepage": "https://nibach.ru/",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "astro dev",
+    "test": "astro check",
+    "build": "astro build"
+  },
+  "dependencies": {
+    "astro": "^4.5.5",
+    "@astrojs/check": "^0.5.9",
+    "typescript": "^5.4.2"
+  }
+}
