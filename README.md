@@ -4,7 +4,7 @@
 
 ## Development
 
-1. Install [Node.js](https://nodejs.org/en/download/) and [pnpm](https://www.npmjs.com/package/pnpm#user-content-installation)
+1. Install [Node.js](https://nodejs.org/en/download/) and [pnpm](https://pnpm.io/installation)
 
 2. Install dependencies
 ```

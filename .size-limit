@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Files to download",
+    "path": ["dist/**/*"],
+    "limit": "2 KB"
+  }
+]
