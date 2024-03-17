@@ -5,12 +5,18 @@
   "type": "module",
   "scripts": {
     "start": "astro dev",
-    "test": "astro check",
+    "test": "pnpm --sequential /test:.*/",
+    "test:astro": "astro check",
+    "test:size": "astro build && size-limit",
     "build": "astro build"
   },
   "dependencies": {
     "astro": "^4.5.5",
-    "@astrojs/check": "^0.5.9",
     "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.5.9",
+    "@size-limit/file": "^11.1.1",
+    "size-limit": "^11.1.1"
   }
 }
