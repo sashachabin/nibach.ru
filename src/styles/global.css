@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 16px);
+    min-height: calc(100dvh - 16px);
+}
+
+main {
+    flex-grow: 1;
+    margin-bottom: 2em;
+}
