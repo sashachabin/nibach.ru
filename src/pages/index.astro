@@ -1,25 +1,11 @@
 ---
-import '../styles/global.css';
-
-const SITE_NAME = 'Саша Чабин';
-const SITE_DESCRIPTION = 'Сайт фронтенд-разработчика из Екатеринбурга';
-const SITE_URL = 'https://nibach.ru';
+import BaseHead from '../components/BaseHead.astro';
+import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from '../consts';
 ---
 
 <html lang="ru">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta name="description" content={SITE_DESCRIPTION} />
-        <meta property="og:url" content={SITE_URL} />
-        <meta property="og:type" content="website" />
-        <meta propert.y="og:title" content={SITE_NAME} />
-        <meta property="og:description" content={SITE_DESCRIPTION} />
-
-        <title>{SITE_NAME}</title>
-
-        <base target="_blank" />
+        <BaseHead title={SITE_NAME} description={SITE_DESCRIPTION} url={SITE_URL} />
     </head>
     <body>
         <main>
